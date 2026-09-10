@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>峨眉山滑雪-滑雪场攻略、门票价格与游玩指南</title>
+    <meta name="description" content="峨眉山滑雪全攻略：介绍峨眉山滑雪场开放时间、门票价格、交通路线、雪道信息、装备租赁及周边住宿，助您规划冬季滑雪度假之旅。">
+    <meta name="keywords" content="峨眉山滑雪,峨眉山滑雪场,峨眉山冬季旅游,滑雪攻略,雷洞坪滑雪场,四川滑雪">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f4f8fb;
+            color: #2c3e50;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 头部 */
+        .site-header {
+            background: linear-gradient(135deg, #1a3c5e 0%, #2d6a9f 100%);
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+        .logo p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin-top: 2px;
+        }
+        .header-contact {
+            font-size: 0.95rem;
+            background: rgba(255,255,255,0.15);
+            padding: 8px 16px;
+            border-radius: 30px;
+        }
+
+        /* 导航 */
+        .main-nav {
+            background: #fff;
+            border-bottom: 3px solid #2d6a9f;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .main-nav li a {
+            display: block;
+            padding: 14px 24px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -3px;
+        }
+        .main-nav li a:hover,
+        .main-nav li a.active {
+            color: #1a3c5e;
+            border-bottom-color: #e67e22;
+            background: #f0f7fc;
+        }
+
+        /* 首屏 Hero */
+        .hero {
+            background: linear-gradient(180deg, rgba(26,60,94,0.85) 0%, rgba(45,106,159,0.6) 100%), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice"><rect width="1200" height="500" fill="%234a90c2"/><circle cx="200" cy="120" r="60" fill="white" opacity="0.2"/><circle cx="900" cy="150" r="80" fill="white" opacity="0.15"/><path d="M0,350 Q300,250 600,320 T1200,280 L1200,500 L0,500 Z" fill="white" opacity="0.25"/><path d="M0,420 Q400,300 800,380 T1200,340 L1200,500 L0,500 Z" fill="white" opacity="0.3"/></svg>');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px 90px;
+        }
+        .hero h2 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+            opacity: 0.95;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: #e67e22;
+            padding: 10px 30px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* 信息速览卡片 */
+        .overview-cards {
+            margin-top: -40px;
+            position: relative;
+            z-index: 10;
+        }
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .card-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+        .card-item:hover {
+            transform: translateY(-5px);
+        }
+        .card-icon {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .card-item h3 {
+            font-size: 1.1rem;
+            color: #1a3c5e;
+            margin-bottom: 6px;
+        }
+        .card-item p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        /* 内容区块通用 */
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1a3c5e;
+            margin: 50px 0 10px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #e67e22;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+        .section-sub {
+            text-align: center;
+            color: #5a7a9a;
+            margin-bottom: 40px;
+            font-size: 1.05rem;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        /* 雪道表格 */
+        .trail-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            margin: 20px 0;
+        }
+        .trail-table th {
+            background: #1a3c5e;
+            color: #fff;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .trail-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef2f6;
+        }
+        .trail-table tr:nth-child(even) {
+            background: #f7fafc;
+        }
+
+        /* 双栏布局 */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+        .info-panel {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 5px solid #2d6a9f;
+        }
+        .info-panel h3 {
+            font-size: 1.4rem;
+            color: #1a3c5e;
+            margin-bottom: 15px;
+        }
+        .info-panel ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        .info-panel li {
+            margin-bottom: 8px;
+        }
+
+        /* 装备推荐卡片 */
+        .gear-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .gear-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            transition: transform 0.3s;
+        }
+        .gear-card:hover {
+            transform: scale(1.02);
+        }
+        .gear-card .gear-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .gear-card h4 {
+            color: #1a3c5e;
+            margin-bottom: 8px;
+        }
+
+        /* FAQ */
+        .faq-list {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px 25px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+        }
+        .faq-item h3 {
+            font-size: 1.15rem;
+            color: #1a3c5e;
+            margin-bottom: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-item p {
+            color: #4a5a6a;
+        }
+
+        /* 注意事项 */
+        .notice-box {
+            background: #fff8f0;
+            border: 2px dashed #e67e22;
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin: 30px 0;
+        }
+        .notice-box h3 {
+            color: #1a3c5e;
+            margin-bottom: 10px;
+        }
+
+        /* 页脚 */
+        .site-footer {
+            background: #1a3c5e;
+            color: #c8d8e8;
+            padding: 40px 0 20px;
+            margin-top: 50px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .footer-grid h4 {
+            color: #fff;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .footer-grid a {
+            color: #c8d8e8;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .footer-grid a:hover {
+            color: #e67e22;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 992px) {
+            .cards-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .gear-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .two-col {
+                grid-template-columns: 1fr;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+        @media (max-width: 600px) {
+            .hero {
+                padding: 70px 15px 60px;
+            }
+            .hero h2 {
+                font-size: 1.9rem;
+            }
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+            .gear-grid {
+                grid-template-columns: 1fr;
+            }
+            .main-nav ul {
+                flex-direction: column;
+            }
+            .main-nav li a {
+                padding: 12px 20px;
+            }
+            .section-title {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <h1>🏔️ 峨眉山滑雪</h1>
+            <p>冬季冰雪度假 · 滑雪攻略一站式服务</p>
+        </div>
+        <div class="header-contact">
+            📍 景区咨询：400-819-0888
+        </div>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <div class="container">
+        <ul>
+            <li><a href="#" class="active">首页</a></li>
+            <li><a href="#overview">滑雪场概况</a></li>
+            <li><a href="#trails">雪道信息</a></li>
+            <li><a href="#tickets">门票价格</a></li>
+            <li><a href="#transport">交通指南</a></li>
+            <li><a href="#gear">装备租赁</a></li>
+            <li><a href="#faq">常见问题</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h2>峨眉山滑雪 · 冬季冰雪奇缘</h2>
+        <p>在海拔2400米的雷洞坪滑雪场，感受南方罕见的林海雪原。峨眉山滑雪场是四川地区最受欢迎的户外滑雪目的地之一，适合家庭、情侣及滑雪爱好者。</p>
+        <span class="hero-badge">❄️ 本雪季预计开放至次年3月</span>
+    </div>
+</section>
+
+<section class="overview-cards">
+    <div class="container">
+        <div class="cards-grid">
+            <div class="card-item">
+                <div class="card-icon">⛷️</div>
+                <h3>雪道规模</h3>
+                <p>初级道2条、中级道1条<br>雪圈道及戏雪区</p>
+            </div>
+            <div class="card-item">
+                <div class="card-icon">🎫</div>
+                <h3>门票参考</h3>
+                <p>进山门票+滑雪套票<br>约¥200-¥400/人</p>
+            </div>
+            <div class="card-item">
+                <div class="card-icon">🕒</div>
+                <h3>开放时间</h3>
+                <p>每日 8:30 - 17:30<br>（具体以景区公告为准）</p>
+            </div>
+            <div class="card-item">
+                <div class="card-icon">🚌</div>
+                <h3>交通方式</h3>
+                <p>高铁至峨眉站<br>换乘景区观光大巴</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main>
+    <!-- 滑雪场概况 -->
+    <section class="content-section" id="overview">
+        <div class="container">
+            <h2 class="section-title">峨眉山滑雪场概况</h2>
+            <p class="section-sub">了解峨眉山滑雪的基本情况，做好出行规划</p>
+            <div class="two-col">
+                <div class="info-panel">
+                    <h3>🏔️ 地理位置与雪况</h3>
+                    <p>峨眉山滑雪场位于峨眉山风景区内海拔2400米左右的雷洞坪区域，是峨眉山冬季最核心的冰雪体验区。由于海拔较高，这里冬季气温通常在-5℃至5℃之间，积雪期一般从12月中下旬持续到次年3月初。</p>
+                    <p>滑雪场周围被原始森林环绕，景色壮丽，天气晴好时可远眺贡嘎雪山。雪场雪质以自然降雪为主，辅以人工造雪，保障雪道质量。</p>
+                </div>
+                <div class="info-panel">
+                    <h3>🎿 适合人群</h3>
+                    <ul>
+                        <li><strong>滑雪新手</strong>：拥有平缓的初级道和专业的滑雪教练。</li>
+                        <li><strong>家庭亲子</strong>：设有雪圈道、雪地滑板等趣味项目。</li>
+                        <li><strong>摄影爱好者</strong>：冬季雪景与云海日出极具魅力。</li>
+                        <li><strong>休闲游客</strong>：即使不滑雪，也可在雪地漫步、打雪仗。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 雪道信息 -->
+    <section class="content-section" id="trails" style="background:#eaf2f8;">
+        <div class="container">
+            <h2 class="section-title">雪道信息与滑雪项目</h2>
+            <p class="section-sub">雪道难度分布及娱乐项目一览</p>
+            <table class="trail-table">
+                <thead>
+                    <tr>
+                        <th>项目类型</th>
+                        <th>难度/长度</th>
+                        <th>适合人群</th>
+                        <th>说明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>初级滑雪道</td>
+                        <td>坡度约8°-12°，长度约300米</td>
+                        <td>零基础、初学者</td>
+                        <td>配有魔毯输送带，适合练习基础动作</td>
+                    </tr>
+                    <tr>
+                        <td>中级滑雪道</td>
+                        <td>坡度约15°-20°，长度约400米</td>
+                        <td>有一定滑雪经验者</td>
+                        <td>需乘坐索道到达起点，雪道较宽</td>
+                    </tr>
+                    <tr>
+                        <td>雪圈道</td>
+                        <td>波浪形滑道</td>
+                        <td>儿童、家庭</td>
+                        <td>乘坐雪圈快速滑下，安全刺激</td>
+                    </tr>
+                    <tr>
+                        <td>雪地滑板车</td>
+                        <td>专属区域</td>
+                        <td>青少年及成人</td>
+                        <td>操作简单，适合娱乐体验</td>
+                    </tr>
+                    <tr>
+                        <td>戏雪区</td>
+                        <td>开阔平坦区域</td>
+                        <td>所有年龄段</td>
+                        <td>可堆雪人、打雪仗，免费进入</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-top:15px;text-align:center;color:#5a7a9a;">* 具体开放雪道及项目可能因天气及雪量调整，请以雪场当日公示为准。</p>
+        </div>
+    </section>
+
+    <!-- 门票与费用 -->
+    <section class="content-section" id="tickets">
+        <div class="container">
+            <h2 class="section-title">门票价格与费用参考</h2>
+            <p class="section-sub">以下为近年常规价格参考，实际请以景区最新公告为准</p>
+            <div class="two-col">
+                <div class="info-panel">
+                    <h3>🎟️ 费用构成</h3>
+                    <ul>
+                        <li><strong>峨眉山进山门票</strong>：旺季（1月-12月）约¥160/人，淡季约¥110/人（淡季通常为12月15日-次年1月15日，具体以官方为准）。</li>
+                        <li><strong>滑雪场门票</strong>：进入滑雪区域需单独购票，通常包含部分基础雪具。</li>
+                        <li><strong>滑雪套票</strong>：含进山门票+观光车+滑雪2小时，约¥300-¥400/人。</li>
+                        <li><strong>雪具押金</strong>：雪板、雪鞋等押金约¥200-¥400/套，归还后退还。</li>
+                    </ul>
+                </div>
+                <div class="info-panel">
+                    <h3>💡 省钱建议</h3>
+                    <ul>
+                        <li>提前在官方渠道查询是否有淡季优惠或套票活动。</li>
+                        <li>自带滑雪服、手套、护目镜等可减少租赁费用（雪板雪鞋仍需租赁）。</li>
+                        <li>工作日前往人较少，部分平台可能有工作日优惠价。</li>
+                        <li>观光车票为必购项目（私家车冬季不可上山），建议购买含观光车的套票。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 交通与住宿 -->
+    <section class="content-section" id="transport" style="background:#eaf2f8;">
+        <div class="container">
+            <h2 class="section-title">交通指南与住宿推荐</h2>
+            <p class="section-sub">如何到达滑雪场及周边住宿选择</p>
+            <div class="two-col">
+                <div class="info-panel">
+                    <h3>🚗 交通方式</h3>
+                    <ul>
+                        <li><strong>高铁</strong>：成都东站/南站乘坐高铁至“峨眉山站”（约1小时），出站后打车或乘公交至景区游客中心。</li>
+                        <li><strong>自驾</strong>：导航至“峨眉山风景区黄湾游客中心”，换乘景区观光车上山（冬季禁止自驾上山）。</li>
+                        <li><strong>观光车</strong>：从游客中心至雷洞坪滑雪场约需1.5-2小时车程，沿途可欣赏雪景。</li>
+                        <li><strong>索道</strong>：雷洞坪至滑雪场附近有索道，可节省体力。</li>
+                    </ul>
+                </div>
+                <div class="info-panel">
+                    <h3>🏨 住宿建议</h3>
+                    <ul>
+                        <li><strong>山脚（报国寺附近）</strong>：酒店选择多，价格实惠，餐饮方便，适合预算有限的游客。</li>
+                        <li><strong>半山（零公里/清音阁）</strong>：离滑雪场稍近，可减少次日上山时间，多为民宿或度假酒店。</li>
+                        <li><strong>雷洞坪附近</strong>：仅有少量住宿，方便早起滑雪或看日出，但需提前很久预订且价格偏高。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 装备租赁 -->
+    <section class="content-section" id="gear">
+        <div class="container">
+            <h2 class="section-title">滑雪装备与租赁指南</h2>
+            <p class="section-sub">雪场提供的装备及个人准备建议</p>
+            <div class="gear-grid">
+                <div class="gear-card">
+                    <div class="gear-icon">🎿</div>
+                    <h4>雪场提供</h4>
+                    <p>滑雪板、雪鞋、雪杖<br>（包含在滑雪票内）</p>
+                </div>
+                <div class="gear-card">
+                    <div class="gear-icon">🧥</div>
+                    <h4>建议自带</h4>
+                    <p>滑雪服或防水冲锋衣、滑雪镜、手套、护臀垫、保暖内衣</p>
+                </div>
+                <div class="gear-card">
+                    <div class="gear-icon">🛍️</div>
+                    <h4>现场租售</h4>
+                    <p>滑雪服租赁约¥30-¥50/套，滑雪镜约¥20/副，手套可购买</p>
+                </div>
+            </div>
+            <div class="notice-box">
+                <h3>⚠️ 安全提示</h3>
+                <p>初学者务必在教练指导下进行，建议购买滑雪保险。滑雪时佩戴头盔，遵守雪场规则，量力而行。峨眉山海拔较高，注意预防高原反应，避免剧烈运动后立刻休息。山区天气多变，请关注当日天气预报。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section" id="faq" style="background:#eaf2f8;">
+        <div class="container">
+            <h2 class="section-title">常见问题解答</h2>
+            <p class="section-sub">关于峨眉山滑雪，您可能关心的问题</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>❓ 峨眉山滑雪场一般几月开放？</h3>
+                    <p>通常每年12月中下旬至次年3月初开放，具体视降雪情况而定。建议出行前一周关注峨眉山景区官方公众号或电话咨询确认。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>❓ 不会滑雪可以去吗？</h3>
+                    <p>完全可以。滑雪场有初级道和教练教学，另有雪圈、戏雪区等不滑雪也能体验冰雪乐趣的项目，适合家庭游客。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>❓ 需要提前预订门票吗？</h3>
+                    <p>旺季及周末游客较多，建议提前在官方渠道预订门票和观光车票，避免现场排队或售罄。滑雪套票也建议一并预订。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>❓ 山上吃饭方便吗？</h3>
+                    <p>雷洞坪滑雪场区域有餐厅和小吃摊位，提供热饮、快餐等，价格略高于山下。也可自带干粮和水，但注意保持环境卫生。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>❓ 滑雪场有教练吗？如何收费？</h3>
+                    <p>雪场提供专业滑雪教练服务，可一对一或一对多教学，价格根据时长和人数在¥200-¥500/小时不等，具体以现场公示为准。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h4>🏔️ 峨眉山滑雪指南</h4>
+                <p>本网站提供峨眉山滑雪的实用旅游信息，包括雪道数据、门票价格、交通住宿等参考内容，帮助您规划完美的冬季冰雪之旅。</p>
+                <p style="margin-top:10px;">* 所有信息仅供参考，请以景区官方最新公告为准。</p>
+            </div>
+            <div>
+                <h4>实用链接</h4>
+                <a href="#">峨眉山景区官网</a>
+                <a href="#">门票预订中心</a>
+                <a href="#">天气查询</a>
+                <a href="#">观光车时刻表</a>
+            </div>
+            <div>
+                <h4>联系方式</h4>
+                <p>景区咨询：400-819-0888</p>
+                <p>投诉建议：0833-5533355</p>
+                <p>地址：四川省乐山市峨眉山市</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 峨眉山滑雪攻略网 | 本站为信息展示平台，非官方渠道</p>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</body>
+</html>
